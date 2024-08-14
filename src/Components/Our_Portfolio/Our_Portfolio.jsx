@@ -22,7 +22,7 @@ const Our_Portfolio = () => {
                     Over the last 13+ years, we have made a name for ourselves in this field, and understand maintaining the same name and reputation is a complex task. We are the top blockchain and complete web solution company and we are leaving no stone unturned. All these years, we have been providing quality services and helping businesses create their unique online identity. Thousands of global clients trusted us and we are proud that we never disappointed any of them. Some of the challenging projects we have completed are clustered here.
                 </p>
             </div>
-            <div className='flex flex-wrap gap-[25px] mt-[40px]'>
+            <div className='flex flex-wrap gap-[25px] mt-[40px] justify-center'>
                 {portfolioItems.map(item => (
                     <div key={item.id} className='w-[18.5%] potfolio_img'>
                         <img src={item.image} className='w-[100%]' alt={item.alt} />
