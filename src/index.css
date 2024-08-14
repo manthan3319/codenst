@@ -16,4 +16,14 @@
     margin-bottom: 15px;
 }
 
+.potfolio_img {
+    background: white;
+    box-shadow: 0px 2px 15px #0051c8;
+    border: 2px solid wheat;
+}
+
+.potfolio {
+    background: linear-gradient(to right, #3dadff3d, #0051c86b);
+}
+
 

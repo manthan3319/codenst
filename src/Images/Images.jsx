@@ -11,6 +11,8 @@ import wallet from "../Images/wallet-development.webp";
 import token from "../Images/token-development.webp";
 import nft from "../Images/nft-development.webp";
 import icon from "../Images/ico-development.webp";
+import brics from "../Images/brics-img.webp";
+import rexx from "../Images/rexx-img.webp";
 export{
     gif,
     business,
@@ -22,5 +24,7 @@ export{
     wallet,
     token,
     nft,
-    icon
+    icon,
+    brics,
+    rexx
 }

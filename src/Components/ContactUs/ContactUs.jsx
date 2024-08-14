@@ -21,7 +21,7 @@ const ContactUs = () => {
 
                         <div className='w-[30%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                            <p className='text-white font-lato text-[22px]'>codenst@gmail.com</p>
+                            <p className='text-white font-lato text-[22px]'>info@codenst.com</p>
                         </div>
                     </div>
 
