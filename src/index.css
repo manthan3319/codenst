@@ -5,7 +5,15 @@
 .gifimg {
     background: white;
     border-radius: 50%;
-    outline: 21px solid blue;
+    outline: 21px solid #0051c8;
+}
+
+.from_input {
+    background: transparent;
+    border-bottom: 1px solid aliceblue;
+    padding: 15px;
+    color: white;
+    margin-bottom: 15px;
 }
 
 
