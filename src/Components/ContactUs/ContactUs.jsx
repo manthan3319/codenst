@@ -8,30 +8,30 @@ const ContactUs = () => {
                     <h1 className='text-[55px] font-bold font-lato text-white border-b border-white inline-block'>Contact Us</h1>
                 </div>
                 <div>
-                    <div className='flex  lg:flex-row justify-between mt-[50px]'>
-                        <div className='w-[30%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
+                    <div className='flex  lg:flex-row flex-wrap justify-between mt-[50px] gap-[25px] md:gap-[15px]'>
+                        <div className='lg:w-[30%] md:w-[48%] w-[100%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-phone-square" aria-hidden="true"></i></span>
                             <p className='text-white font-lato text-[22px]'>+91 7023472073</p>
                         </div>
 
-                        <div className='w-[30%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
+                        <div className='lg:w-[30%] md:w-[48%] w-[100%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-skype" aria-hidden="true"></i></span>
                             <p className='text-white font-lato text-[22px]'>CODENST@123</p>
                         </div>
 
-                        <div className='w-[30%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
+                        <div className='lg:w-[30%] md:w-[100%] w-[100%] bg-[#ffffff29] flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
                             <p className='text-white font-lato text-[22px]'>info@codenst.com</p>
                         </div>
                     </div>
 
-                    <div className='mt-[80px] bg-[#ffffff29] p-[50px] border-[1px] border-black rounded-[10px]'>
+                    <div className='mt-[80px] bg-[#ffffff29] lg:p-[50px] p-[30px] border-[1px] border-black rounded-[10px]'>
                         <from>
-                            <div className='flex gap-[15px] md:flex-row'>
+                            <div className='flex md:gap-[15px] md:flex-row flex-col'>
                                 <input type='text' placeholder='Enter Name' className='outline-none from_input w-[100%]'/>
                                 <input type='text' placeholder='Enter Enail' className='outline-none from_input w-[100%]'/>
                             </div>
-                            <div className='flex gap-[15px] md:flex-row'>
+                            <div className='flex md:gap-[15px] md:flex-row flex-col'>
                                 <input type='Number' placeholder='Enter Number' className='outline-none from_input w-[100%]'/>
                                 <input type='text' placeholder='Enter Subject' className='outline-none from_input w-[100%]'/>
                             </div>

@@ -35,7 +35,7 @@ const Exprince_count = () => {
     return (
         <div ref={ref} className='bg-secondary py-[50px]'>
             <div className='lg:max-w-[1440px] m-auto px-[20px]'>
-                <div className='flex gap-[60px] justify-between'>
+                <div className='flex gap-[60px] justify-between flex-wrap'>
                     <div className='flex md:flex-row gap-[15px] items-center'>
                         <div className='mt-[10px]'>
                             <span><img src={business} alt='img' className='w-[70px]' /></span>
