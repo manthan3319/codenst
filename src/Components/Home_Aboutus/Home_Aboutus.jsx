@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Home_Aboutus = () => {
     return (
-        <div className='py-[50px] potfolio'>
+        <div className='py-[50px] bg-[#f3f4f6]'>
             <div className='lg:max-w-[1440px] m-auto px-[20px]'>
                 <div className='flex lg:flex-row flex-col items-center'>
                     

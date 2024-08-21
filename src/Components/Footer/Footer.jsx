@@ -116,9 +116,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='text-center py-[10px] border-t border-white'>
+            {/* <div className='text-center py-[10px] border-t border-white'>
             <p class="font-poppins text-white font-medium text-[15px] lg:text-[18px]">© Copyright 2024 by <a class="text-gold font-ubuntu font-bold hover:text-customBlue" href="https://brightensolutions.com/"> Brighten Solutions </a></p>
-            </div>
+            </div> */}
         </div>
     );
 }

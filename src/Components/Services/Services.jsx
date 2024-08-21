@@ -29,11 +29,11 @@ const servicesData = [
         image: BEP20Token,
         title: 'BEP20 Token Development',
       },
-      {
-        id: 5,
-        image: RealEstate,
-        title: 'Real Estate Tokenization',
-      },
+      // {
+      //   id: 5,
+      //   image: RealEstate,
+      //   title: 'Real Estate Tokenization',
+      // },
       {
         id: 6,
         image: nft,
@@ -300,10 +300,10 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className='bg-primary py-[50px]'>
+    <div className='bg-white py-[50px]'>
       <div className='lg:max-w-[1440px] m-auto px-[20px]'>
         <div className='text-center'>
-          <h1 className='text-center font-lato lg:text-[65px] text-[45px] inline-block border-b-[2px] border-b-secondary text-white'>Services</h1>
+          <h1 className='text-center font-lato lg:text-[65px] text-[45px] inline-block border-b-[2px] border-b-secondary text-black'>Services</h1>
         </div>
 
         <Tabs className="mt-[50px]">

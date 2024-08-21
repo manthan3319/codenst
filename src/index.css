@@ -30,7 +30,7 @@
     display: inline-block;
     border: 1px solid transparent;
     border-bottom: none;
-    background: white !important;
+    background: #f3f4f6 !important;
     border-radius: 5px !important;
     bottom: -1px;
     position: relative;
@@ -48,7 +48,7 @@
 .react-tabs__tab--selected {
     background: #a5a5a561 !important;
     border: 1px solid black !important;
-    color: white !important;
+    color: black !important;
 }
 
 .react-tabs__tab:focus:after {

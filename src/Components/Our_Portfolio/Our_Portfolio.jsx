@@ -30,7 +30,7 @@ const Our_Portfolio = () => {
   };
 
   return (
-    <div className='py-[50px] potfolio'>
+    <div className='py-[50px] bg-[#f3f4f6]'>
       <div className='lg:max-w-[1440px] m-auto px-[20px]'>
         <div className='text-center'>
           <h1 className='text-primary font-bold font-lato md:text-[60px] text-[50px] border-b border-secondary inline-block'>
